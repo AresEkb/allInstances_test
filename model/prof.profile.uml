@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_5DuHcDMiEeaHiN-gpWS8bA" name="prof" metamodelReference="_5HyIEDMiEeaHiN-gpWS8bA">
+  <eAnnotations xmi:id="_5IIGUDMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="__5fscDMiEeaHiN-gpWS8bA" name="prof" nsURI="http:///schemas/prof/__5fFYDMiEeaHiN-gpWS8bA/1" nsPrefix="prof">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__5fscTMiEeaHiN-gpWS8bA" name="ClassSt">
+        <eAnnotations xmi:id="__5fscjMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6WxDsDMiEeaHiN-gpWS8bA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__5fsczMiEeaHiN-gpWS8bA" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__5fsdTMiEeaHiN-gpWS8bA" name="SignalSt">
+        <eAnnotations xmi:id="__5fsdjMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9kkccDMiEeaHiN-gpWS8bA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__5fsdzMiEeaHiN-gpWS8bA" name="base_Signal" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Signal"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5IIGUTMiEeaHiN-gpWS8bA" name="prof" nsURI="http:///schemas/prof/_5H0kUDMiEeaHiN-gpWS8bA/0" nsPrefix="prof"/>
+  </eAnnotations>
+  <packageImport xmi:id="_5HxhADMiEeaHiN-gpWS8bA">
+    <eAnnotations xmi:id="__5fseTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5gTgDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_5HyIEDMiEeaHiN-gpWS8bA">
+    <eAnnotations xmi:id="__5gTgTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5gTgjMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_6WxDsDMiEeaHiN-gpWS8bA" name="ClassSt">
+    <eAnnotations xmi:id="__5gTgzMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5gThDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_85e4EDMiEeaHiN-gpWS8bA" name="base_Class" association="_85eRADMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="__5gThTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+        <details xmi:id="__5gThjMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_85eRADMiEeaHiN-gpWS8bA" name="Class_ClassSt" memberEnd="_85eRATMiEeaHiN-gpWS8bA _85e4EDMiEeaHiN-gpWS8bA">
+    <eAnnotations xmi:id="__5gThzMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5gTiDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_85eRATMiEeaHiN-gpWS8bA" name="extension_ClassSt" type="_6WxDsDMiEeaHiN-gpWS8bA" aggregation="composite" association="_85eRADMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="__5gTiTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+        <details xmi:id="__5gTijMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_9kkccDMiEeaHiN-gpWS8bA" name="SignalSt">
+    <eAnnotations xmi:id="__5gTizMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5gTjDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_-XhjYjMiEeaHiN-gpWS8bA" name="base_Signal" association="_-XhjYDMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="__5gTjTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+        <details xmi:id="__5g6kDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Signal"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_-XhjYDMiEeaHiN-gpWS8bA" name="Signal_Stereotype1" memberEnd="_-XhjYTMiEeaHiN-gpWS8bA _-XhjYjMiEeaHiN-gpWS8bA">
+    <eAnnotations xmi:id="__5g6kTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5g6kjMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_-XhjYTMiEeaHiN-gpWS8bA" name="extension_Stereotype1" type="_9kkccDMiEeaHiN-gpWS8bA" aggregation="composite" association="_-XhjYDMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="__5g6kzMiEeaHiN-gpWS8bA" source="uml2.extensions">
+        <details xmi:id="__5g6lDMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_5HyIETMiEeaHiN-gpWS8bA">
+    <eAnnotations xmi:id="_5HyIEjMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="ProfileBase.profile.uml#_IfFYQMmBEdqBcN1R6EvWUw"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="__5g6lTMiEeaHiN-gpWS8bA" source="uml2.extensions">
+      <details xmi:id="__5g6ljMiEeaHiN-gpWS8bA" key="addedInVersion" value="1"/>
+    </eAnnotations>
+    <appliedProfile href="ProfileBase.profile.uml#_bFUAMdWLEdiy4IqP8whjFA"/>
+  </profileApplication>
+</uml:Profile>

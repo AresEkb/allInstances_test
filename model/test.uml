@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:prof="http:///schemas/prof/__5fFYDMiEeaHiN-gpWS8bA/1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/prof/__5fFYDMiEeaHiN-gpWS8bA/1 prof.profile.uml#__5fscDMiEeaHiN-gpWS8bA">
+  <uml:Model xmi:id="_1ItqcDMiEeaHiN-gpWS8bA" name="test">
+    <packageImport xmi:id="_1ItqcjMiEeaHiN-gpWS8bA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BjbesDMjEeaHiN-gpWS8bA" name="Class2"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_Ca7ucDMjEeaHiN-gpWS8bA" name="Signal2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_K2dJQDMjEeaHiN-gpWS8bA" name="Class1"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_LwE44DMjEeaHiN-gpWS8bA" name="Signal1"/>
+    <profileApplication xmi:id="_1ItqczMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="_1ItqdDMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1ItqdTMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="_1ItqdjMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Default.profile.uml#_fNwoAAqoEd6-N_NOT9vsCA"/>
+      </eAnnotations>
+      <appliedProfile href="Default.profile.uml#_a_S3wNWLEdiy4IqP8whjFA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1ItqdzMiEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="_1ItqeDMiEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Deployment.profile.uml#_4OVBUD0TEeKt-L0gyEptgQ"/>
+      </eAnnotations>
+      <appliedProfile href="Deployment.profile.uml#_vjbuwOvHEdiDX5bji0iVSA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_GJaLUDMjEeaHiN-gpWS8bA">
+      <eAnnotations xmi:id="_GJaLUTMjEeaHiN-gpWS8bA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="prof.profile.uml#__5fscDMiEeaHiN-gpWS8bA"/>
+      </eAnnotations>
+      <appliedProfile href="prof.profile.uml#_5DuHcDMiEeaHiN-gpWS8bA"/>
+    </profileApplication>
+  </uml:Model>
+  <prof:ClassSt xmi:id="_HO07QDMjEeaHiN-gpWS8bA" base_Class="_BjbesDMjEeaHiN-gpWS8bA"/>
+  <prof:SignalSt xmi:id="_H6hjoDMjEeaHiN-gpWS8bA" base_Signal="_Ca7ucDMjEeaHiN-gpWS8bA"/>
+</xmi:XMI>
